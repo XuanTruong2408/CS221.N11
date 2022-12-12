@@ -1,10 +1,7 @@
 import maximumMatching as MM
 
 def testToken(path2Raw='data/root/raw.txt'):
-    '''
-        Test thuat toan tach tu maximum Matching
 
-    '''
     sentences =[]
     with open(path2Raw, 'r') as f:
         data = f.read()
