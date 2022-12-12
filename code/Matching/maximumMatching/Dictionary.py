@@ -1,10 +1,7 @@
 import pickle
 
 def createDict(path2Data='data/root/word_separation.txt'):
-    '''
-    
-    Tao dictionary tu bo data
-    '''
+
     with open(path2Data,'r') as f:
         data = f.read()
         list_Words = data.replace('\n', ' ').split()

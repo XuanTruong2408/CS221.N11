@@ -7,11 +7,6 @@ def getDictionary(path2Dictionary='code/matching/maximumMatching/Dictionary.pkl'
 
 
 def maximumMatching(sentence, maxlen=4):
-    '''
-
-        Thuat toan tach tu bang Maximum Matching
-
-    '''
 
     dictionary = getDictionary()
 
@@ -45,11 +40,7 @@ def maximumMatching(sentence, maxlen=4):
 
 
 def maximumsMatching(lines, maxlen=4):
-    '''
 
-        Tach nhieu cau bang Maximum Matching
-
-    '''
     dictionary = getDictionary()
 
     list_Tokenizer = []
