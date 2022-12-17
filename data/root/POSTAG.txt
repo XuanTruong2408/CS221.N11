@@ -14,7 +14,7 @@ R - Adverb
 O - Auxiliary, modal words
 V - Verb 
 X - Unknown
-PUN - Punctuation
+CH - Punctuation
 AB - Abbreviation 
 FL - Foreign Language
 Z - Component stem

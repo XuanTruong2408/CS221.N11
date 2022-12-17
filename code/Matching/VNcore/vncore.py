@@ -1,7 +1,7 @@
 from vncorenlp import VnCoreNLP
 
-rdrsegmenter = VnCoreNLP("code\VNcore\VnCoreNLP\VnCoreNLP-1.1.1.jar",
-                         annotators="wseg",
+rdrsegmenter = VnCoreNLP("code\Matching\VNcore\VnCoreNLP\VnCoreNLP-1.1.1.jar",
+                         annotators="wseg, pos",
                          max_heap_size='-Xmx1g')
 
 
