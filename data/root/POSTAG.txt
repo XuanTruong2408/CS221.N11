@@ -9,6 +9,7 @@ N - Common noun
 Nc - Noun Classifier
 Np - Proper noun
 Nu - Unit noun
+Ni - Sign Noun
 P - Pronoun
 R - Adverb
 O - Auxiliary, modal words

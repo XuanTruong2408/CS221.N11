@@ -37,4 +37,4 @@ Chính_phủ|N tiếp_tục|V xây_dựng|V một|M lớp|N nông_dân|N mới|A
 Thế_hệ|N gen|FL Z|FL ngày|N càng|R tiến_bộ|A trong|E việc|N tiếp_cận|V thông_tin|N liên_tục|A và|CC nhanh_chóng|A .|PUN
 Các|D nhà_phát_triển|N công_nghệ|N không|R ngừng|V đầu_tư|V ,|PUN đổi_mới|V để|C phát_triển|V xã_hội|N .|PUN
 Trong|E rẫy|N cà_phê|N ,|PUN gom|V đến|I 180|M đạn|N pháo|N 105|M ly|Nu .|PUN
-Chủ|N đầu_tư|N toà|Nc nhà|N 8B|X Lê_Trực|Np đã|R nhận|V công_trình|N sau|N cưỡng_chế|V .|PUN
+Chủ|N đầu_tư|N toà|Nc nhà|N 8B|Ni Lê_Trực|Np đã|R nhận|V công_trình|N sau|N cưỡng_chế|V .|PUN
