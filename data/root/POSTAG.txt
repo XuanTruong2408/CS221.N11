@@ -1,20 +1,21 @@
-A - Adjective 
-CC - Coordinating conjunction 
+A - Adjective
 C - Subordinating conjunction
-E - Preposition 
+CC - Coordinating conjunction
+E - Preposition
 I - Interjection
 D - Determiner
-M - Numeral 
-N - Common noun 
-Nc - Noun Classifier 
+M - Numeral
+N - Common noun
+Nc - Noun Classifier
 Np - Proper noun
 Nu - Unit noun
+Ni - Sign Noun
 P - Pronoun
 R - Adverb
 O - Auxiliary, modal words
-V - Verb 
+V - Verb
 X - Unknown
 CH - Punctuation
-AB - Abbreviation 
+AB - Abbreviation
 FL - Foreign Language
 Z - Component stem
