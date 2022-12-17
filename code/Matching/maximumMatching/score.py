@@ -8,7 +8,7 @@ def testToken(path2Raw='data/root/raw.txt'):
         sentences = data.split('\n')
 
     list_Tokens = MM.maximumsMatching(sentences)
-    with open('data/output/matching_test.txt', 'w') as f:
+    with open('data/output/matching_mm_test.txt', 'w') as f:
         for line in list_Tokens:
             f.write(line)
             f.write('\n')
