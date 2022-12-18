@@ -1,5 +1,0 @@
-with open('data/root/word_POStagging.txt', 'r') as f:
-    data = f.read()
-    data = data.replace("PUN", "CH")
-with open(r'data/root/word_POStagging.txt', 'w') as f:
-    f.write(data)
