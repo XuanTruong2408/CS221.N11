@@ -10,6 +10,7 @@ sớm	A
 đi	V
 học	V
 .	CH
+
 Con	Np
 chim	N
 chích_bông	V
@@ -20,6 +21,7 @@ hay	C
 trèo	V
 cây	N
 .	CH
+
 Tôi	P
 từng	P
 sống	V
@@ -30,6 +32,7 @@ với	E
 của	E
 tôi	P
 .	CH
+
 Lớp_học	N
 của	E
 họ	P
@@ -38,6 +41,7 @@ thu_hút	V
 nhiều	A
 học_viên	N
 .	CH
+
 Hồi	N
 lên	V
 sáu	M
@@ -51,6 +55,7 @@ tranh	V
 tuyệt	V
 đẹp	A
 .	CH
+
 Trên	E
 thế_giới	N
 này	P
@@ -61,6 +66,7 @@ nhiều	A
 điều	N
 kỳ_bí	A
 .	CH
+
 Khi	N
 nào	P
 chúng_ta	P
@@ -93,6 +99,7 @@ không	R
 nghe	V
 đâu	P
 .	CH
+
 Cuối	N
 tuần	N
 này	P
@@ -113,6 +120,7 @@ quốc_gia	N
 thành_phố	N
 Hồ_Chí_Minh	Np
 .	CH
+
 Giảm	V
 6	M
 tháng	N
@@ -122,6 +130,7 @@ cựu	X
 thứ_trưởng	N
 Nguyễn_Văn_Hiến	Np
 .	CH
+
 Ô_tô	Np
 lao	V
 vào	E
@@ -139,6 +148,7 @@ tử_vong	V
 trong	E
 xe	N
 .	CH
+
 Cục	Np
 An_ninh	Np
 điều_tra	V
@@ -148,6 +158,7 @@ Anh_hùng	N
 lực_lượng_vũ_trang	N
 nhân_dân	N
 .	CH
+
 Ô_nhiễm	V
 không_khí	N
 ,	CH
@@ -157,6 +168,7 @@ mù_mờ	A
 cả	P
 ngày	N
 .	CH
+
 Kết_thúc	V
 trận	N
 đấu	V
@@ -170,6 +182,7 @@ bóng_chuyền	N
 từ	E
 UIT	Np
 .	CH
+
 Than_ôi	Np
 ,	CH
 sao	P
@@ -193,6 +206,7 @@ giao_lưu	V
 kết_nối	V
 yêu_thương	V
 .	CH
+
 Đại_dịch	Np
 Covid-19	V
 thật	T
@@ -207,6 +221,7 @@ khắp	A
 mọi	L
 nơi	N
 .	CH
+
 Ông	N
 Minh	Np
 yêu_cầu	V
@@ -219,6 +234,7 @@ của	E
 thoả_thuận	V
 này	P
 .	CH
+
 Bỗng_dưng	Np
 muốn	V
 khóc	V
@@ -228,6 +244,7 @@ nhẹ	A
 nỗi	Nc
 đau	V
 .	CH
+
 Thân	Np
 em	N
 vừa	R
@@ -243,6 +260,7 @@ chìm	V
 với	E
 nước_non	N
 .	CH
+
 Hàng	N
 trăm	M
 hộ	N
@@ -255,6 +273,7 @@ có	V
 rất	R
 giàu_sang	A
 .	CH
+
 Tôi	P
 có_thể	R
 dùng	V
@@ -274,6 +293,7 @@ mới	A
 được	V
 lên_lớp	V
 .	CH
+
 Có	V
 nên	C
 đưa	V
@@ -293,14 +313,17 @@ tại	E
 khu_vực	N
 này	P
 .	CH
+
 Bà	N
 Đoàn_Thiên_Ân	Nc
 làm	V
 bí_thư	N
 Đảng_uỷ	Np
 Quân_sự	N
-TP.HCM	Ny
+TP.	N
+HCM	Np
 .	CH
+
 Xe	N
 điên	A
 húc	V
@@ -315,6 +338,7 @@ cây	N
 công_viên	N
 Tầm_Vu	Np
 .	CH
+
 Đà_Nẵng	Np
 chỉ	R
 có	V
@@ -327,6 +351,7 @@ chuẩn	N
 cho	E
 xe_buýt	N
 .	CH
+
 Những	L
 cánh	N
 đồng	N
@@ -340,6 +365,7 @@ quê	N
 của	E
 Tổ_quốc	N
 .	CH
+
 Thủ_tướng	N
 nhấn	V
 nút	N
@@ -347,11 +373,13 @@ khởi_công	V
 khu	N
 công_nghiệp	N
 gần	A
-3.900	M
+3.	M
+900	M
 tỉ	M
 tại	E
 Thái_Bình	Np
 .	CH
+
 Miền	Np
 Bắc	Np
 đón	V
@@ -368,6 +396,7 @@ có_thể	R
 có	V
 băng_giá	V
 .	CH
+
 Trường_hợp	Np
 nào	P
 thuộc	V
@@ -393,6 +422,7 @@ Cát_Linh	Np
 -	CH
 Hà_Đông	Np
 .	CH
+
 Chính_phủ	N
 tiếp_tục	V
 xây_dựng	V
@@ -405,6 +435,7 @@ chắc	V
 kinh_tế	N
 số	N
 .	CH
+
 Thế_hệ	Np
 gen	N
 Z	Np
@@ -419,6 +450,7 @@ liên_tục	A
 và	Cc
 nhanh_chóng	A
 .	CH
+
 Các	Np
 nhà_phát_triển	N
 công_nghệ	N
@@ -431,6 +463,7 @@ ngừng	V
 phát_triển	V
 xã_hội	N
 .	CH
+
 Trong	E
 rẫy	N
 cà_phê	N
@@ -443,6 +476,7 @@ pháo	N
 105	M
 ly	N
 .	CH
+
 Chủ	N
 đầu_tư	V
 toà	N
@@ -455,4 +489,5 @@ công_trình	N
 sau	N
 cưỡng_chế	V
 .	CH
+
 
