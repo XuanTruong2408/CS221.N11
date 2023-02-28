@@ -1,6 +1,6 @@
 import pickle
 
-def createDict(path2Data='data/root/word_separation.txt'):
+def createDict(path2Data='data/root/word_separation_1.txt'):
 
     with open(path2Data,'r') as f:
         data = f.read()

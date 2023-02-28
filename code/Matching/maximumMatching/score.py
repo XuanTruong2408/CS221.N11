@@ -13,7 +13,7 @@ def testToken(path2Raw='data/root/raw.txt'):
             f.write(line)
             f.write('\n')
     
-    with open('data/root/word_separation.txt', 'r') as f:
+    with open('data/root/word_separation_1.txt', 'r') as f:
         data_gold = f.read()
         list_Golds = data_gold.split('\n')
 

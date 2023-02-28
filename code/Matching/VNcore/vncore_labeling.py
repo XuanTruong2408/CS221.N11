@@ -4,7 +4,7 @@ rdrsegmenter = VnCoreNLP("code\Matching\VNcore\VnCoreNLP\VnCoreNLP-1.1.1.jar",
                          max_heap_size='-Xmx1g')
 
 
-path = 'data/root/word_separation.txt'
+path = 'data/root/word_separation_test.txt'
 
 
 def Hand(path):
@@ -25,7 +25,7 @@ def Hand(path):
 
 manual_tokens = Hand(path)
 
-with open('data/root/vncore_labeling.txt', 'w', encoding='utf-8') as f:
+with open('data/root/vncore_labeling_test_pred.txt', 'w', encoding='utf-8') as f:
     for word in manual_tokens:
         word = word.replace('\n', '')
 
@@ -37,5 +37,5 @@ with open('data/root/vncore_labeling.txt', 'w', encoding='utf-8') as f:
         if tag == []:
             f.write('\n')
         else:
-            f.write(f'{word}\t{tag[0][0][1]}\n')
+            f.write(f'\t{tag[0][0][1]}\n')
     f.write('\n')

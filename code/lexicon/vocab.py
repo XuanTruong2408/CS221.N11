@@ -12,7 +12,7 @@ def getVocabDict():
             index += 1
     print('Số lượng từ vựng:', len(vocabs_dict.keys()))
     return vocabs_dict
-    
+
 def checkVocab():
     count = 0
     vocabs_dict = getVocabDict()

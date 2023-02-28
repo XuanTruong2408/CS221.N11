@@ -36,11 +36,13 @@ def create_dictionaries(train_gold, vocab):
 
 
 vocabs_dict = getVocabDict()
-gold = open('data/root/word_POStagging.txt', encoding='utf-8').readlines()
-transition_counts, emission_counts, tag_counts = create_dictionaries(gold, vocabs_dict)
+train_gold = open('data/root/word_POStagging_train.txt', encoding='utf-8').readlines()
+test_gold = open('data/root/word_POStagging_test.txt', encoding='utf-8').readlines()
+transition_counts, emission_counts, tag_counts = create_dictionaries(train_gold, vocabs_dict)
 states = sorted(tag_counts.keys())
 
-train_words = preprocess(vocabs_dict, 'data/root/word_separation.txt')
+train_words = preprocess(vocabs_dict, 'data/root/word_separation_train.txt')
+test_words = preprocess(vocabs_dict, 'data/root/word_separation_test.txt')
 
 alpha = 0.001
 for i in range(len(states)): tag_counts.pop(i, None)
@@ -71,12 +73,19 @@ B = B[1:]
 best_probs_train, best_paths_train = Viterbi.viterbi_initialize(states, tag_counts, A, B, train_words, vocabs_dict)
 print('best_probs_train[0, 0]:', best_probs_train[0, 0]) 
 print('best_paths_train[2, 3]:', best_paths_train[2, 3])
+best_probs_test, best_paths_test = Viterbi.viterbi_initialize(states, tag_counts, A, B, test_words, vocabs_dict)
+print('best_probs_test[0, 0]:', best_probs_test[0, 0]) 
+print('best_paths_test[2, 3]:', best_paths_test[2, 3])
 
 best_probs_train, best_paths_train = Viterbi.viterbi_forward(A, B, train_words, best_probs_train, best_paths_train, vocabs_dict)
 print('best_probs_train[0, 1]:', best_probs_train[0, 1]) 
 print('best_paths_train[0, 4]:', best_paths_train[0, 4])
+best_probs_test, best_paths_test = Viterbi.viterbi_forward(A, B, test_words, best_probs_test, best_paths_test, vocabs_dict)
+print('best_probs_test[0, 1]:', best_probs_test[0, 1]) 
+print('best_paths_test[0, 4]:', best_paths_test[0, 4])
 
 train_pred = Viterbi.viterbi_backward(best_probs_train, best_paths_train, train_words, states)
+test_pred = Viterbi.viterbi_backward(best_probs_test, best_paths_test, test_words, states)
 m = len(train_pred)
 
 print(f'Dự đoán cho train_pred[-7:{m - 1}]:')
@@ -110,4 +119,11 @@ def report(pred, gold):
     return y_pred, y_true
 
 print('Kết quả của mô hình Hidden Markov kết hợp thuật toán Viterbi trên tập train:\n')
-y_pred, y_true_train = report(train_pred, gold)
+y_pred, y_true_train = report(train_pred, train_gold)
+
+print('Kết quả của mô hình Hidden Markov kết hợp thuật toán Viterbi trên tập test:\n')
+y_pred, y_true_test = report(test_pred, test_gold)
+
+
+
+#-------------vncore------------------------------------

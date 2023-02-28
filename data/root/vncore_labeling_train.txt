@@ -73,6 +73,7 @@ chúng_ta	P
 sẽ	R
 trưởng_thành	V
 ?	CH
+
 Ôi	I
 nó	P
 thật	T
@@ -80,6 +81,7 @@ là	V
 đẹp	A
 làm_sao	X
 !	CH
+
 Ở	E
 nhà	N
 bạn	N
@@ -90,6 +92,7 @@ vào	E
 buổi	N
 tối	N
 ?	CH
+
 Anh	Np
 nói	V
 vậy	P
@@ -192,6 +195,7 @@ ra_vẻ	X
 quá	R
 à	T
 !	CH
+
 Chào_mừng	V
 bạn	N
 đã	R
@@ -285,6 +289,7 @@ miễn_phí	V
 phải	V
 không	R
 ?	CH
+
 Phải	V
 đủ	A
 điểm	N
@@ -305,6 +310,7 @@ nhà	N
 chống	V
 lũ	N
 ?	CH
+
 Vui_lòng	Np
 không	R
 hút	V
@@ -320,8 +326,7 @@ làm	V
 bí_thư	N
 Đảng_uỷ	Np
 Quân_sự	N
-TP.	N
-HCM	Np
+TP.HCM	Np
 .	CH
 
 Xe	N
@@ -373,8 +378,7 @@ khởi_công	V
 khu	N
 công_nghiệp	N
 gần	A
-3.	M
-900	M
+3.900	M
 tỉ	M
 tại	E
 Thái_Bình	Np
@@ -407,6 +411,7 @@ theo	V
 quy_định	V
 mới	A
 ?	CH
+
 Ngắm	Np
 đoàn	N
 tàu	N
@@ -422,72 +427,3 @@ Cát_Linh	Np
 -	CH
 Hà_Đông	Np
 .	CH
-
-Chính_phủ	N
-tiếp_tục	V
-xây_dựng	V
-một	M
-lớp	N
-nông_dân	N
-mới	A
-nắm	V
-chắc	V
-kinh_tế	N
-số	N
-.	CH
-
-Thế_hệ	Np
-gen	N
-Z	Np
-ngày	N
-càng	R
-tiến_bộ	V
-trong	E
-việc	N
-tiếp_cận	V
-thông_tin	N
-liên_tục	A
-và	Cc
-nhanh_chóng	A
-.	CH
-
-Các	Np
-nhà_phát_triển	N
-công_nghệ	N
-không	R
-ngừng	V
-đầu_tư	V
-,	CH
-đổi_mới	V
-để	E
-phát_triển	V
-xã_hội	N
-.	CH
-
-Trong	E
-rẫy	N
-cà_phê	N
-,	CH
-gom	V
-đến	V
-180	M
-đạn	N
-pháo	N
-105	M
-ly	N
-.	CH
-
-Chủ	N
-đầu_tư	V
-toà	N
-nhà	N
-8B	M
-Lê_Trực	Np
-đã	R
-nhận	V
-công_trình	N
-sau	N
-cưỡng_chế	V
-.	CH
-
-

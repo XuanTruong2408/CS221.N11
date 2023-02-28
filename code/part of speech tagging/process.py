@@ -30,7 +30,7 @@ def create_dictionaries(train_gold, vocab):
         prev_tag = tag
     return transition_counts, emission_counts, tag_counts
 vocabDict = getVocabDict()
-gold = open('data/root/vncore_labeling.txt', encoding='utf-8').readlines()
+gold = open('data/root/word_POStagging.txt', encoding='utf-8').readlines()
 transition_counts, emission_counts, tag_counts = create_dictionaries(gold, vocabDict)
 states = sorted(tag_counts.keys())
 print('Số nhãn:', len(states))
